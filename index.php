@@ -69,12 +69,12 @@ echo $Appartement->hasGarage() . "<br>"; // retourne 1 si true / Rien si false
 
 // setters pour un 2e appartement
 
-echo $Appartement->setPays("France") . "<br>";
-echo $Appartement->setVille("Roubaix") . "<br>";
-echo $Appartement->setCodePostal(59000) . "<br>";
-echo $Appartement->setChambres(2) . "<br>";
-echo $Appartement->setPieces(4) . "<br>";
-echo $Appartement->hasGarage(true) . "<br>"; // retourne 1 si true / Rien si false
+echo $Appartement->setPays("France");
+echo $Appartement->setVille("Roubaix");
+echo $Appartement->setCodePostal(59000);
+echo $Appartement->setChambres(2);
+echo $Appartement->setPieces(4);
+echo $Appartement->hasGarage(true); // retourne 1 si true / Rien si false
 
 echo $Appartement->getPays() . "<br>";
 echo $Appartement->getVille() . "<br>";
